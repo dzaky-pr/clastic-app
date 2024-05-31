@@ -4,7 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-from keras_preprocessing import image
+from keras.preprocessing import image
 from keras.applications.mobilenet_v2 import preprocess_input
 from PIL import Image
 import io
